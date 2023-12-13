@@ -52,7 +52,7 @@ local function createGUI()
         end
     end)
  
-    local abilities = {"Dash", "Forcefield", "Invisibility", "Platform", "Raging Deflection", "Shadow Step", "Super Jump", "Telekinesis", "Thunder Dash"}
+    local abilities = {"Dash", "Forcefield", "Invisibility", "Platform", "Raging Deflection", "Shadow Step", "Infinity", "Quantum Arena", "Thunder Dash"}
     local buttonHeight = 20
     for i, ability in ipairs(abilities) do
         local button = Instance.new("TextButton")
